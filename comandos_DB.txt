@@ -1,0 +1,13 @@
+CREATE SCHEMA IF NOT EXISTS `loginweb` DEFAULT CHARACTER SET utf8 ;
+
+CREATE TABLE IF NOT EXISTS `loginweb`.`user_details` (
+`userid` VARCHAR(16) NOT NULL,
+`password` VARCHAR(16) NULL,
+`fname` VARCHAR(100) NULL,
+`lname` VARCHAR(100) NULL,
+`gender` VARCHAR(1) NULL,
+`country` VARCHAR(30) NULL,
+`emailid` VARCHAR(60) NULL,
+PRIMARY KEY (`userid`));
+
+INSERT INTO user_details (userid,password,fname,lname,gender,country,emailid) VALUES ('elmo12','osito','Gerardo','Reyes','M','EUA','mastodonte@gmail');
