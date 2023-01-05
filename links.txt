@@ -1,0 +1,8 @@
+Cambiar shell de MySQL de \js a \sql:
+https://stackoverflow.com/questions/50645402/mysql-syntaxerror-unexpected-identifier
+
+Tutorial del SQL injection:
+https://www.w3resource.com/sql/sql-injection/sql-injection.php
+
+Conexion a base datos:
+https://es.stackoverflow.com/questions/100239/por-qu%C3%A9-me-sale-el-error-call-to-undefined-function-mysql-connect
